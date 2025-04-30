@@ -4,7 +4,8 @@ AI-Driven Automated HR Recruitment System
 Overview
 This project is designed to automate the recruitment process using Generative AI and automation tools. It streamlines email retrieval, resume evaluation based on job descriptions, and candidate communication, reducing manual effort, time, and potential biases in hiring.
 
-Features
+Features:
+
 📥 Email Retrieval: Automatically fetches job applications from a configured email inbox.
 
 📄 Resume Evaluation: Uses an LLM chain to compare resumes with the job description and extract key insights.
@@ -13,7 +14,8 @@ Features
 
 📧 Automated Communication: Sends personalized emails to candidates based on evaluation outcomes.
 
-Tech Stack
+Tech Stack:
+
 Python
 
 IMAP (for email reading)
