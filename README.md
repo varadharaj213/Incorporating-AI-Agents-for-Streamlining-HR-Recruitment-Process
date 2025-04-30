@@ -4,15 +4,16 @@ AI-Driven Automated HR Recruitment System
 Overview
 This project is designed to automate the recruitment process using Generative AI and automation tools. It streamlines email retrieval, resume evaluation based on job descriptions, and candidate communication, reducing manual effort, time, and potential biases in hiring.
 
-Features:
+🚀 Features:
 
-📥 Email Retrieval: Automatically fetches job applications from a configured email inbox.
+📬 Email Integration – Automatically fetches job application emails using IMAP.
 
-📄 Resume Evaluation: Uses an LLM chain to compare resumes with the job description and extract key insights.
+📄 Resume Analysis – Evaluates resumes against a provided job description using a Language Model.
 
-📊 Result Storage: Stores shortlisted candidate data in a structured CSV format.
+📊 Candidate Shortlisting – Stores filtered and ranked candidates in a structured CSV format.
 
-📧 Automated Communication: Sends personalized emails to candidates based on evaluation outcomes.
+📧 Email Notifications – Sends customized response emails to applicants based on their evaluation.
+
 
 Tech Stack:
 
@@ -26,7 +27,8 @@ SMTP / Gmail Agent (for sending emails)
 
 Pandas (for CSV file handling)
 
-Setup Instructions
+Setup Instructions:
+
 Clone the repository
 
 bash
